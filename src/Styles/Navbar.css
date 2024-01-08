@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+  background-color: transparent ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+}
+
+.nav-links {
+    display:         flex;
+    gap:             10px;
+    
+  }
+
+
+.nav-link {
+    color:   #1b1b1b      ;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.nav-link:hover
+           
+            {
+            color: #1b1b1b93  ;
+          }
+
+  .navbar-container {
+    display:         flex;  
+    justify-content: space-between;
+    align-items:     center;
+   
+    
+    padding:         10px;
+  }

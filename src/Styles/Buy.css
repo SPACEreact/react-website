@@ -1,0 +1,35 @@
+
+
+.home6 {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .home8 {
+    
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd; 
+  }
+  
+  .home8 img {
+    
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+  .home8 p {
+    
+    margin: 5px 0;
+  }
+
+  .button {
+    
+  }
+  
+  
+  

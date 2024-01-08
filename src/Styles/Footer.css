@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home3 {
+    background-color: black;
+    text-align: center;
+   
+   
+    font-size: 20px ;
+    cursor: pointer;
+
+}
+
+.home5 {
+     
+    text-align: center;
+    text-decoration: none;
+    column-gap: 10px;
+    margin: 10px;
+    
+    
+}
+
+.home5:hover {
+
+    
+    fill-opacity: 0.5;
+}
+
+
+
+.footer {
+    width: 100%;
+}
+

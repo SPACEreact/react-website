@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.homw2 {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+  }
+  
+  .home {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .homw2 button {
+    text-decoration: none;
+    display: block;
+    margin: 0 auto; 
+    background-color: grey; 
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+
+  .homw2 button:hover,
+  .homw2 button:focus {
+    background-color: rgba(128, 128, 128, 0.63);
+  }
+  
+  .leftside img {
+    width:           50px; 
+  }
