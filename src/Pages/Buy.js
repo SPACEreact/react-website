@@ -4,17 +4,20 @@ import { Outlet } from 'react-router-dom';
 import '../Styles/Buy.css'
 import { Cars } from '../Cars';
 import Button from '@mui/material/Button';
+import '../index.css';
 
 
 const Buy = () => {
   return (
-    <div className='home6'>
+    <div className='container mx-auto bg-black'  >
     {Cars.map((Car, index) =>{
-      return <div className='home8' key={index}><img src={Car.images} alt='yo'/>
-         <p>{Car.name}</p>
-         <p>Rs{Car.price}Lakhs</p>
+      return <div className='my-5 p-0 bg-black bg-cover bg-center bg-no-repeat rounded shadow' key={index}><img src={Car.images} alt='yo'/>
+         <p className=" home11 text-center text-xl  font-semibold text-gray-600 " >{Car.name}</p>
+         <p className=" home12  text-gray-600 text-center  " >Rs{Car.price}Lakhs</p>
          
-         <Button eleva variant="contained" color="success">BUY</Button>
+         <div className='home10'>
+         <Button className='button'  >BUY</Button>
+         </div>
          
          </div>
             

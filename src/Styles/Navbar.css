@@ -25,6 +25,7 @@
     font-size: larger;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #ffffff1f, 1px -1px 0 #ffffff1f, -1px 1px 0 #ffffff1f, 1px 1px 0 #ffffff1f;
   }
 
 .nav-link:hover
